@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Go On A Date With Me?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+        <source src="music.ogg" type="audio/ogg">
+        <!-- Note: Download "This is what falling in love feels like" by JVKE and save it as music.mp3 in this folder -->
+    </audio>
+    
+    <!-- Music Control Button -->
+    <button class="music-control" id="musicControl" title="Toggle Music">
+        <span id="musicIcon">🎵</span>
+    </button>
+    
+    <div class="hearts-container" id="heartsContainer"></div>
+    <div class="container">
+        <div class="content">
+            <!-- Single Photo -->
+            <div class="photo-container">
+                <img src="HandsHolding.JPG" alt="Our Photo" class="couple-photo" id="couplePhoto">
+            </div>
+            
+            <h1>Will you go on a date with me?</h1>
+            <div class="date-info">
+                <p class="date-text">📅 Thursday, December 18th</p>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-yes" id="yesBtn">Yes ❤️</button>
+                <button class="btn btn-no" id="noBtn">No</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
